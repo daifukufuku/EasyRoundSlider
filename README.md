@@ -1,6 +1,12 @@
 # EasyRoundSlider.js
 EasyRoundSlider.js is a javascript library for creating customizable round sliders. 
 
+![demo1](https://github.com/daifukufuku/EasyRoundSlider/assets/17878471/536cfd4b-afcd-47b0-9621-16f1164b64cf)
+
+![demo2](https://github.com/daifukufuku/EasyRoundSlider/assets/17878471/a00c48fb-e2c2-4fa3-8636-4d2e68e09fa6)
+
+![demo3](https://github.com/daifukufuku/EasyRoundSlider/assets/17878471/188fa4d7-1992-4154-b24a-bfd621ad01f7)
+
 ## Features
 
 - Easy to use. You just set the dom id and parameters.
