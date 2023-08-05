@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1">
+        <meta charset='utf-8'>
+        <title>EasyRoundSlider.js</title>
+        <link rel='stylesheet' href='./style.css' type='text/css'>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src='round-slider.min.js'></script>
+        <script src='script.js'></script>
+    </head>
+    <body>
+        <div class="title-container">
+            <h1>EasyRoundSlider.js demo</h1>
+        </div>
+        <div class="round-slider-container">
+            <h2>Single slider</h2>
+            <p>A round slider that controls a single value.</p>
+            <div id="round-slider-single" class="round-slider"></div>
+            <div class="value-container">
+                <span>value</span>
+                <span id="text-slider-value-single"></span>
+            </div>
+        </div>
+        <div class="round-slider-container">
+            <h2>Double slider</h2>
+            <p>Two round sliders that control two separate values.</p>
+            <div class="flex-container">
+                <div id="round-slider-double-1" class="round-slider"></div>
+                <div id="round-slider-double-2" class="round-slider"></div>
+            </div>
+            <div class="value-container">
+                <span>value</span>
+                <span id="text-slider-value-double-1"></span>
+            </div>
+            <div class="value-container">
+                <span>value</span>
+                <span id="text-slider-value-double-2"></span>
+            </div>
+        </div>
+        <div class="round-slider-container">
+            <h2>Parent-child slider</h2>
+            <p>Parent-child sliders, where the child slider's position depends on the parent slider.</p>
+            <div id="round-slider-parent" class="round-slider"></div>
+            <div class="value-container">
+                <span>value</span>
+                <span id="text-slider-value-parent"></span>
+            </div>
+            <div class="value-container">
+                <span>value</span>
+                <span id="text-slider-value-child"></span>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    padding-bottom: 50px;
+}
+h1 {
+    text-align: center;
+}
+.round-slider-container {
+    width: 500px;
+    margin: 100px auto 0;
+}
+
+.round-slider-container > .round-slider {
+    margin: 50px auto 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.value-container {
+    margin-top: 20px;
+}
